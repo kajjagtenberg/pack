@@ -10,7 +10,7 @@ var (
 	SEPERATOR = []byte(":")
 )
 
-// Encodes the values to base32 to be able to safely seperated them by the SEPERATOR, which is a colon.
+// Encodes the values to base64 to be able to safely seperated them by the SEPERATOR, which is a colon.
 // It is not optimal use of the available bytes, but often key safety is more important than the size.
 func Pack(values ...[]byte) []byte {
 	for i := 0; i < len(values); i++ {
