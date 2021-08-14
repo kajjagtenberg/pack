@@ -1,3 +1,3 @@
-# go-boilerplate
+# Pack
 
-My boilerplate template for Golang applications.
+Library to easiliy and predictably pack and namespace byte keys for key-value stores.

@@ -1,5 +1,3 @@
-module github.com/kajjagtenberg/go-boilerplate
+module github.com/kajjagtenberg/pack
 
 go 1.16
-
-require github.com/sirupsen/logrus v1.8.1
